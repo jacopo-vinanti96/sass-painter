@@ -5,8 +5,20 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
+// Repeated classes
 @for $i from 1 through 20 {
   .mt-#{$i * 5} {
     margin-top: $i * 5;
   }
+}
+
+// Shortcuts
+@mixin flex_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

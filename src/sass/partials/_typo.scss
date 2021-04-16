@@ -1,0 +1,39 @@
+// General
+* {
+  color: $font_color;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo_text {
+  color: $ps_logo_color;
+}
+
+// Header
+header {
+  h1 {
+    font-size: $font_size_300;
+  }
+  a {
+    font-size: $font_size_300;
+  }
+}
+
+//Main
+main {
+  .hero {
+
+    color: $font_sec_color;
+
+    h2 {
+      font-size: $font_size_900;
+    }
+
+    a {
+      color: $font_sec_color;
+    }
+
+  }
+}

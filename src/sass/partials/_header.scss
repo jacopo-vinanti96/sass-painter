@@ -1,0 +1,24 @@
+// header content__toggle
+.header_content__fixed .links,
+.header_content__toggle,
+.dropdowns {
+  @include flex_between;
+}
+
+.header_content__toggle {
+  padding: 20px;
+  background-color: $bg_color_primary;
+}
+
+.header_content__fixed {
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  .links {
+    width: 910px;
+    margin: auto;
+  }
+}
+
+.logo {
+  width: 30px;
+}
