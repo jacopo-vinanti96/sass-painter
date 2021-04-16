@@ -22,18 +22,22 @@ header {
 }
 
 //Main
-main {
-  .hero {
+.hero_content {
 
-    color: $font_sec_color;
-
-    h2 {
-      font-size: $font_size_900;
-    }
-
-    a {
-      color: $font_sec_color;
-    }
-
+  img {
+    width: 50px;
   }
+
+  & > * {
+    color: $font_sec_color;
+  }
+
+  h2 {
+    font-size: $font_size_900;
+  }
+
+  p {
+    font-size: $font_size_600;
+  }
+
 }
