@@ -13,10 +13,7 @@ a {
 
 // Header
 header {
-  h1 {
-    font-size: $font_size_300;
-  }
-  a {
+  h1, a {
     font-size: $font_size_300;
   }
 }
@@ -28,7 +25,7 @@ header {
     width: 50px;
   }
 
-  & > * {
+  > * {
     color: $font_sec_color;
   }
 
@@ -40,4 +37,13 @@ header {
     font-size: $font_size_600;
   }
 
+}
+
+#features {
+  h3, h4 {
+    font-size: $font_size_700;
+  }
+  p {
+    font-size: $font_size_400;
+  }
 }
